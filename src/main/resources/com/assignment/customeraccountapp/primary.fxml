@@ -11,7 +11,7 @@
 <?import javafx.scene.layout.RowConstraints?>
 <?import javafx.scene.layout.VBox?>
 
-<AnchorPane prefHeight="622.0" prefWidth="814.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.assignment.customeraccountapp.PrimaryController">
+<AnchorPane prefHeight="622.0" prefWidth="814.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.assignment.customeraccountapp.MainController">
     <children>
         <!-- Customer Details Section -->
         <VBox alignment="TOP_LEFT" layoutX="14.0" layoutY="14.0" spacing="10">
@@ -80,17 +80,17 @@
                     <children>
       
                               <!-- Deposit and Withdraw Buttons with TextFields -->
-                        <Button fx:id="depositButton" onAction="#handleButtonAction" text="Deposit" GridPane.rowIndex="2" />
+                        <Button fx:id="depositButton" onAction="#handleDepositButtonAction" text="Deposit" GridPane.rowIndex="2" />
                         <TextField fx:id="depositAmountField" promptText="Deposit Amount" GridPane.columnIndex="1" GridPane.rowIndex="2" />
-                        <Button fx:id="withdrawButton" onAction="#handleButtonAction" text="Withdraw" GridPane.rowIndex="3" />
+                        <Button fx:id="withdrawButton" onAction="#handleWithdrawButtonAction" text="Withdraw" GridPane.rowIndex="3" />
                         <TextField fx:id="withdrawAmountField" promptText="Withdraw Amount" GridPane.columnIndex="1" GridPane.rowIndex="3" />
 
                         <!-- Add Monthly Interests and Generate Reports Buttons -->
-                        <Button fx:id="addMonthlyInterestsButton" onAction="#handleButtonAction" text="Add All Monthly Interests" GridPane.rowIndex="6" />
-                        <Button fx:id="generateReportsButton" onAction="#handleButtonAction" text="Generate Reports" GridPane.rowIndex="7" />
+                        <Button fx:id="addMonthlyInterestsButton" onAction="#handleMonthlyInterestsButtonAction" text="Add All Monthly Interests" GridPane.rowIndex="6" />
+                        <Button fx:id="generateReportsButton" onAction="#handleGenerateReportsButtonAction" text="Generate Reports" GridPane.rowIndex="7" />
                         <!-- Find Customer and Find Account Buttons -->
-                        <Button fx:id="findCustomerButton" onAction="#handleButtonAction" text="Find Customer" GridPane.rowIndex="4" />
-                        <Button fx:id="findAccountButton" onAction="#handleButtonAction" text="Find Account" GridPane.rowIndex="5" />
+                        <Button fx:id="findCustomerButton" onAction="#handleFindCustomerButtonAction" text="Find Customer" GridPane.rowIndex="4" />
+                        <Button fx:id="findAccountButton" onAction="#handleFindAccountButtonAction" text="Find Account" GridPane.rowIndex="5" />
                     </children>
                <columnConstraints>
                   <ColumnConstraints />
@@ -129,10 +129,10 @@
                 <TextArea fx:id="accountDetailsArea" prefHeight="130.0" prefWidth="350.0" />
             </children>
         </VBox>
-            <Button fx:id="previousButton" layoutX="446.0" layoutY="260.0" onAction="#handleButtonAction" text="Previous" />
+            <Button fx:id="previousButton" layoutX="446.0" layoutY="260.0" onAction="#handlePreviousButtonAction" text="Previous" />
 
                         <!-- Next and Previous Buttons -->
-            <Button fx:id="nextButton" layoutX="530.0" layoutY="261.0" onAction="#handleButtonAction" text="Next" />
+            <Button fx:id="nextButton" layoutX="530.0" layoutY="261.0" onAction="#handleNextButtonAction" text="Next" />
             <Button fx:id="exitButton" layoutX="763.0" layoutY="579.0" onAction="#handleExitButtonAction" text="Exit" />
 
             <!-- Clear and Exit Buttons -->
