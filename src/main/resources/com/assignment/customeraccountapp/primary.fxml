@@ -11,7 +11,7 @@
 <?import javafx.scene.layout.RowConstraints?>
 <?import javafx.scene.layout.VBox?>
 
-<AnchorPane prefHeight="622.0" prefWidth="814.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.assignment.customeraccountapp.MainController">
+<AnchorPane prefHeight="622.0" prefWidth="814.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.assignment.customeraccountapp.CustomerController">
     <children>
         <!-- Customer Details Section -->
         <VBox alignment="TOP_LEFT" layoutX="14.0" layoutY="14.0" spacing="10">
