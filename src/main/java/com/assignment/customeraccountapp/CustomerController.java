@@ -189,6 +189,7 @@ public class CustomerController {
      */
     @FXML
     private void handleFindCustomerButtonAction(ActionEvent event) {
+        
         String customerId = customerIdField.getText();
         currentCustomer = customerList.findCustomer(customerId);
 
@@ -203,6 +204,7 @@ public class CustomerController {
             updateWithdrawButtonState();  // Update the state of the Withdraw button
             messagesArea.setText("Customer found: " + customerId);
         } else {
+            handleClearButtonAction();
             messagesArea.setText("Customer not found: " + customerId);
         }
     }

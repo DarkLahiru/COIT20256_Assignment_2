@@ -1,0 +1,50 @@
+ReportForDate_05_10_2024
+Date: 05/10/2024
+
+Customer ID: C0003	 Name: Mary Johnson
+
+Account ID: DA003	 Type: DailyAccessAccount
+Account Balance: $500.00
+Minimum Monthly Balance: $500.00
+Last Interest Earned: $0.8333
+Interest Rate: 0.0200
+
+Account ID: HL002	 Type: HomeLoanAccount
+Amount Owing: $300000.00
+Interest Rate: 0.0450
+Monthly Interest Charged: $1125.00
+Original Loan Amount: $300000.00
+Loan Start Date: 01/05/2019
+Duration of Loan: 25 years
+
+===========================
+Customer ID: C0001	 Name: John Smith
+
+Account ID: DA001	 Type: DailyAccessAccount
+Account Balance: $1150.00
+Minimum Monthly Balance: $1150.00
+Last Interest Earned: $2.8750
+Interest Rate: 0.0300
+
+Account ID: GS001	 Type: GoalSaverAccount
+
+Account ID: HL001	 Type: HomeLoanAccount
+Amount Owing: $200000.00
+Interest Rate: 0.0400
+Monthly Interest Charged: $666.67
+Original Loan Amount: $200000.00
+Loan Start Date: 01/01/2020
+Duration of Loan: 30 years
+
+===========================
+Customer ID: C0002	 Name: Jane Doe
+
+Account ID: DA002	 Type: DailyAccessAccount
+Account Balance: $1545.00
+Minimum Monthly Balance: $1545.00
+Last Interest Earned: $3.8625
+Interest Rate: 0.0300
+
+Account ID: GS002	 Type: GoalSaverAccount
+
+===========================
